@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+cd ~
 
 
 ==========
@@ -23,6 +23,8 @@ Write the command that you used to do this below:
 
 Write the command that you used to do this - as well as its output - below :
 ----------
+pwd
+/Users/student
 
 
 
@@ -31,6 +33,10 @@ Write the command that you used to do this - as well as its output - below :
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+ls
+Desktop		Library		My Song.band	Sites		stuff
+Documents	Movies		Pictures	Things		vms
+Downloads	Music		Public		VirtualBox VMs
 
 
 
@@ -65,7 +71,11 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
-
+curl -o mtec1002-lab-03.tar.gz http://foureyes.github.io/mtec1002-spring2014/labs/03/mtec1002-lab-03.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  898k  100  898k    0     0  5090k      0 --:--:-- --:--:-- --:--:-- 5102k
+ent-v321-005:~ student$ 
 
 
 ==========
@@ -73,7 +83,22 @@ Write the command(s) that you used to download this file - as well as its output
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+ tar -xvf mtec1002-lab-03.tar.gz
+x mtec1002-lab-03/
+x mtec1002-lab-03/._.DS_Store
+x mtec1002-lab-03/.DS_Store
+x mtec1002-lab-03/books/
+x mtec1002-lab-03/logs/
+x mtec1002-lab-03/web/
+x mtec1002-lab-03/web/about.html
+x mtec1002-lab-03/web/css/
+x mtec1002-lab-03/web/img/
+x mtec1002-lab-03/web/index.html
+x mtec1002-lab-03/web/img/otters-1.jpg
+x mtec1002-lab-03/web/img/otters-2.jpg
+x mtec1002-lab-03/web/img/otters-3.jpg
+x mtec1002-lab-03/web/img/otters-4.jpg
+x mtec1002-lab-03/web/img/otters-5.jpg
 
 
 ==========
@@ -88,6 +113,13 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+ student$ ls
+Desktop			My Song.band		mtec1002-lab-03
+Documents		Pictures		mtec1002-lab-03.tar.gz
+Downloads		Public			stuff
+Library			Sites			vms
+Movies			Things
+Music			VirtualBox VMs
 
 
 
@@ -96,6 +128,7 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+books	logs	web
 
 
 
@@ -104,7 +137,8 @@ Write the command(s) that you used to determine this - as well as its output - b
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
+cd~
+cd mtec1002-lab-03/books/science-fiction
 
 
 ==========
@@ -112,7 +146,8 @@ Write the command(s) (including going home) that you used to do this below:
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+ls
+pg84.txt pg86.txt
 
 
 ==========
@@ -120,6 +155,8 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to do this below:
 ----------
+/Users/student/mtec1002-lab-03/books/science-fiction
+
 
 ==========
 OPTIONAL
